@@ -1,0 +1,6 @@
+node_modules
+dist
+example/Gemfile.lock
+example/public/js/backbone.stompbind.js
+example/public/js/backbone.stompsync.js
+.project
