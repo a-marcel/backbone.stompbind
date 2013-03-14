@@ -3,7 +3,7 @@
 Backbone.stompBind allows you to bind stomp message events to backbone model & collection events.
 Also includes `backbone.stompsync.js`, a drop in replacement for `Backbone.sync` that uses stomp.js.
 
-This project (including this documentation) is just a few modifications on the excellent backbone.stompBind (for socket.io) by Jake Luer.
+This project (including this documentation) is just a few modifications on the excellent backbone.ioBind (for socket.io) by Jake Luer.
 
 The example has been rewritten to use ruby on the server side instead of node.js.
 Note that this example currently connects to an external broker which speaks STOMP over websocket, which is not included. I used ActiveMQ.
@@ -138,7 +138,7 @@ The app is found in the `example` folder.
 
 ## Other Frameworks
 
-- [Backbone.realtimeBind](https://github.com/andreisebastianc/Backbone.js-Cometd-RealtimeBind) - stompBind for CometD by [@andreisebastianc](https://github.com/andreisebastianc/).
+- [Backbone.realtimeBind](https://github.com/andreisebastianc/Backbone.js-Cometd-RealtimeBind) - ioBind for CometD by [@andreisebastianc](https://github.com/andreisebastianc/).
 
 ## Protip
 
